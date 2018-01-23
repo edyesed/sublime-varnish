@@ -2,7 +2,7 @@
     "name": "varnish-vcl",
     "displayName": "varnish-vcl",
     "description": "Better syntax highlighting for the Varnish Configuration Language (VCL).",
-    "version": "0.0.5",
+    "version": "0.1.0",
     "publisher": "floone",
     "repository": "https://github.com/floone/sublime-varnish/tree/master",
     "engines": {
