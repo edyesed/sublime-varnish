@@ -1,0 +1,38 @@
+{
+    "name": "varnish-vcl",
+    "displayName": "varnish-vcl",
+    "description": "Better syntax highlighting for the Varnish Configuration Language (VCL).",
+    "version": "0.0.5",
+    "publisher": "floone",
+    "repository": "https://github.com/floone/sublime-varnish/tree/master",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "vcl",
+                "aliases": [
+                    "VCL",
+                    "vcl"
+                ],
+                "extensions": [
+                    ".vcl",
+                    ".vcl.erb",
+                    ".vcl.j2"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "vcl",
+                "scopeName": "source.varnish.vcl",
+                "path": "./Syntaxes/VCL.tmLanguage"
+            }
+        ]
+    }
+}
